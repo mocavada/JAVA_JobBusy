@@ -1,13 +1,14 @@
 ### DONT IGNORE FILE ###
 !gradle/wrapper/gradle-wrapper.jar
 !HELP.md
+!src/main/resources/templates/*
 
 ### IGNORE FILE ###
 .idea/*
 .gradle/*
 build/*
 frontend/node_modules/*
-!src/main/resources/*
+!src/main/resources/application.properties
 
 ### STS ###
 .apt_generated
