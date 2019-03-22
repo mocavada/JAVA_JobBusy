@@ -1,4 +1,3 @@
-
 ### DONT IGNORE FILE ###
 !gradle/wrapper/gradle-wrapper.jar
 !HELP.md
@@ -8,8 +7,7 @@
 .gradle/*
 build/*
 frontend/node_modules/*
-src/main/resources/application.properties
-
+src/main/resources/*
 
 ### STS ###
 .apt_generated
