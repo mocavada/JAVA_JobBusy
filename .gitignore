@@ -1,0 +1,34 @@
+
+### DONT IGNORE FILE ###
+!gradle/wrapper/gradle-wrapper.jar
+!HELP.md
+
+### IGNORE FILE ###
+.idea/*
+.gradle/*
+build/*
+frontend/node_modules/*
+src/main/resources/application.properties
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IDEs & Editors
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# MISC
+.DS_Store
+Thumbs.db
+
