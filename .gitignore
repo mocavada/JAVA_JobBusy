@@ -8,7 +8,7 @@
 .gradle/*
 build/*
 frontend/node_modules/*
-!src/main/resources/application.properties
+src/main/resources/application.properties
 
 ### STS ###
 .apt_generated
