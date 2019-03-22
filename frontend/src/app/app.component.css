@@ -1,0 +1,9 @@
+.navbar, .container {
+    font-family:"futura-pt", sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+li { list-style: none; }
+li a { color: #ffff; }
+li div a { color: #454545; }

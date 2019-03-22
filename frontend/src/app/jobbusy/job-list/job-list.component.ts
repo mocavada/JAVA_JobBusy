@@ -1,4 +1,7 @@
+import { JobbusyService } from './../service/jobbusy.service';
+import { Job } from './../pojo/job';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-job-list',
@@ -7,9 +10,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JobListComponent implements OnInit {
 
-  constructor() { }
+  jobList: Job[];
+
+  constructor(private dService: JobbusyService) { }
 
   ngOnInit() {
+    this.dService.jobResult$.subscribe(data => {
+      if (data != null) {
+        this.jobList = data;
+        console.log('Loading Data');
+      }
+    });
+
+    this.dService.getData();
+    console.log('Get Data');
+
   }
 
 }

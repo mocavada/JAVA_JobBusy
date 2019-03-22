@@ -3,7 +3,7 @@
 .idea/*
 .gradle/*
 build/*
-frontend/node_modules/*
+frontend/*
 
 ### STS ###
 .apt_generated
@@ -29,6 +29,7 @@ Thumbs.db
 ### DONT IGNORE FILE ###
 !gradle/wrapper/gradle-wrapper.jar
 !HELP.md
-!src/main/resources/templates/*
+!src/main/resources/*
+
 
 

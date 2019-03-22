@@ -8,7 +8,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  {path: 'PostJob' , component: JobPostComponent, canActivate: [LoginGuardService]},
+  {path: 'PostJob' , component: JobPostComponent},
   {path: 'UserLoginComponent' , component: UserLoginComponent},
   {path: 'ListJob' , component: JobListComponent}
 ];
