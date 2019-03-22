@@ -7,7 +7,7 @@
 .gradle/*
 build/*
 frontend/node_modules/*
-src/main/resources/*
+!src/main/resources/*
 
 ### STS ###
 .apt_generated
